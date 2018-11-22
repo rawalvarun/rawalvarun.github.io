@@ -3,4 +3,4 @@ rawalvarun.github.io
 
 Personal WebPage
 
-# vrawal.github.io
+# rawalvarun.github.io

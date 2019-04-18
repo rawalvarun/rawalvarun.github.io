@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Varun Rawal, Flawless Coder, Launches Site"
+title: "Varun Rawal Launches Site"
 date: 2018-11-22
 ---
 

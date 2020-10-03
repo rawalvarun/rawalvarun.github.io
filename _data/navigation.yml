@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Education"
+    url: /academic_qualifications/
+
   - title: "Publications"
     url: /publications/
 

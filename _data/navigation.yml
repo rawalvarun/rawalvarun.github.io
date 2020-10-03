@@ -4,22 +4,22 @@ main:
     url: /academic_qualifications/
 
   - title: "Publications"
-    url: /publications/
+    url: /publications/  
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Experience"
+    url: /experience/   
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "CV"
+    url: /cv/ 
     
   - title: "Portfolio"
     url: /portfolio/
         
   - title: "Blog Posts"
     url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
+
+  - title: "Talks"
+    url: /talks/  
     
   - title: "Guide"
     url: /markdown/

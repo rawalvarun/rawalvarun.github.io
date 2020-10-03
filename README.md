@@ -28,6 +28,11 @@ See more info at https://academicpages.github.io/
 1. We require `bundle exec jekyll build --config _config.yml,_config.dev.yml --watch` to update the developer config if redirections to `localhost:4000` don't work.
 1. The combined command is below :
 1. `bundle exec jekyll liveserve --config _config.yml,_config.dev.yml --watch --force_polling &`
+1. The above was the command to run before starting to develop at localhost server.
+1. The command before pushing to remote branch shoudl exclude the `_config.dev.yml` and thus would be :
+1. `bundle exec jekyll build --config _config.yml &`
+1. In order to terminate the server in case it glitches, use the followin commands :
+1. `sudo lsof -i :4000` to get the PID of server using 4000 Port and then `kill -9 <PID>`
 
 # Changelog -- bugfixes and enhancements
 

@@ -11,6 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.academic_qualifications  %}
-  {% include archive-single.html %}
+{% for post in site.academic_qualifications reversed  %}
+   {% include archive-single-education.html %}
 {% endfor %}

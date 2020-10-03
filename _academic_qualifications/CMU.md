@@ -3,10 +3,10 @@ title: "Carnegie Mellon University"
 collection: academic_qualifications
 type: "Education"
 permalink: /education/cmu
-venue: "Pittsburgh, PA"
+venue: "CMU Pittsburgh Campus"
 field: "Machine Learning"
 degree: "Masters"
-date: 2012-03-01
+date: 2020-12-23
 duration: "Aug 2019 - Dec 2020"
 location: "Pittsburgh, PA"
 ---

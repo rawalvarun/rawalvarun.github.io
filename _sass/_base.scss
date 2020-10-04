@@ -192,6 +192,8 @@ figure {
   iframe,
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
+    height:100%
+    padding-top: 100% !important;
   }
 
   img {

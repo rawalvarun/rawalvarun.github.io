@@ -174,10 +174,7 @@ kramdown:
 
 
 # Collections
-collections:
-  experiences:
-    output: true
-    permalink: /:collection/:path/
+collections: 
   publications:
     output: true
     permalink: /:collection/:path/
@@ -188,6 +185,18 @@ collections:
     output: true
     permalink: /:collection/:path/
   academic_qualifications:
+    output: true
+    permalink: /:collection/:path/
+  experiences:
+    output: true
+    permalink: /:collection/:path/
+  experiences_industry:
+    output: true
+    permalink: /:collection/:path/
+  experiences_intern:
+    output: true
+    permalink: /:collection/:path/
+  experiences_acad:
     output: true
     permalink: /:collection/:path/
 
@@ -253,6 +262,33 @@ defaults:
       type: academic_qualifications
     values:
       layout: talk
+      author_profile: true
+      share: true
+      comments: true
+  # _experiences_industry
+  - scope:
+      path: ""
+      type: experiences_industry
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _experiences_intern
+  - scope:
+      path: ""
+      type: experiences_intern
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _experiences_acad
+  - scope:
+      path: ""
+      type: experiences_acad
+    values:
+      layout: single
       author_profile: true
       share: true
       comments: true

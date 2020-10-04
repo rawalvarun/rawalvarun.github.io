@@ -12,3 +12,12 @@ location: "Pittsburgh, PA"
 ---
 
 Machine Learning Department, School of Computer Science
+{: .notice}
+
+Courses :
+===
+`Intro to Machine Learning` `Probability & Statistics` `Convex Optimization`  
+
+`Probabilistic Graphical Models`  `Advanced Machine Learning`   
+
+`Data Analysis`  `Machine Learning on Big Datasets` `Intermediate Deep Learning `  

@@ -13,3 +13,19 @@ location: "West Bengal, India"
 
 CGPA: 9.72/10.0
 Department Rank 3 among 90 CS Students
+{: .notice}
+
+
+Courses :
+===
+`Probability & Statistics` `Matrix Algebra` `Information Retrieval`    
+
+`Speech & Natural Language Processing` `Algorithms I`     
+
+`Algorithms II` `Discrete Structures` `Formal Languages & Automata Theory`    
+
+`Machine Learning` `Image Processing` `Performance Modeling of Computer Networks`     
+
+`Artificial Intelligence` `Theory of Computation` `Adv. Image Processing & Comp. Vision`      
+
+`Deep Learning`  `Principles of Programming Languages`   

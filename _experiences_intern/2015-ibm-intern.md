@@ -6,6 +6,7 @@ permalink: /experiences_industry/ibm-2015-intern
 venue: "Supervisor : Dr. Sameep Mehta, Senior Researcher & Manager, IBM"
 duration: "May 2015 - June 2015"
 location: "New Delhi, India"
+logo : '/images/logos/ibm.png'
 ---
 
 * Actively participated in and contributed to the partial fulfilment of the Project \Construction of Knowledge Graph

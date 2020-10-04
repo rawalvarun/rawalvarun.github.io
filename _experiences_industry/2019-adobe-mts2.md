@@ -6,6 +6,7 @@ permalink: /experiences_industry/adobe-2019-mts
 venue: "Adobe Creative Cloud"
 duration: "January 2019 - June 2019"
 location: "Noida, India"
+logo : '/images/logos/adobe.png'
 ---
 
 * Worked in product team affiliated to Adobe CC (Adobe Creative Cloud) which is an enterprise level product used

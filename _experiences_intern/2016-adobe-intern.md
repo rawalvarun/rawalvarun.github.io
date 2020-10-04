@@ -6,6 +6,7 @@ permalink: /experiences_industry/ibm-2015-intern
 venue: "Supervisor : Harvineet Singh, MTS, Adobe Research Labs"
 duration: "May 2016 - July 2016"
 location: "Adobe Research Bangalore, India"
+logo : '/images/logos/adobe.png'
 ---
 
 * Actively participated in and contributed to the fulfilment of the Project based on \Analytics of Multi-Channel

@@ -6,6 +6,7 @@ permalink: /experiences_industry/adobe-2017-mts
 venue: "Adobe Experience Cloud"
 duration: "June 2017 - December 2018"
 location: "Noida, India"
+logo : '/images/logos/adobe.png'
 ---
 
 * Worked in product team affiliated to AEM (Adobe Experience Manager) Forms evolved from Adobe LiveCycle

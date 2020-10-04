@@ -199,6 +199,9 @@ collections:
   experiences_acad:
     output: true
     permalink: /:collection/:path/
+  awards:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -292,6 +295,14 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _awards
+  - scope:
+      path: ""
+      type: awards
+    values:
+      layout: talk
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:

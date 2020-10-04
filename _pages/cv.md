@@ -9,11 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
+Download [Full CV (LONG) here](../files/cv_resume/vrawal_resume.pdf)
+
+---
+
+Download [One Page Resume (SHORT) here](../files/cv_resume/vrawal_resume_one_page.pdf)
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BTech. (Hons.) in IIT Kharagpur, 2013 - 2017
+* Masters in Machine Learning, Carnegie Mellon University, 2019 - 2020
 
 Work experience
 ======
@@ -41,14 +46,20 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Projects
+======
+  <ul>{% for post in site.talks %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}</ul>
+
+Workshops
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+Awards
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}

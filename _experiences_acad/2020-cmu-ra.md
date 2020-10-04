@@ -1,19 +1,12 @@
 ---
-title: "Adobe Systems India Pvt. Ltd."
-collection: experiences_industry
-designation: "Member of Technical Staff"
-permalink: /experiences_industry/adobe-2017-mts
-venue: "Adobe Experience Cloud"
-duration: "June 2017 - December 2018"
-location: "Noida, India"
+title: "Carnegie Mellon University"
+collection: experiences_acad
+designation: "Research Assistant"
+permalink: /experiences_industry/cmu-2020-RA
+venue: "Supervisor : Prof. Beibei Li "
+duration: "Sep 2020 - December 2020"
+location: "Pittsburgh, PA, USA"
 ---
 
-* Worked in product team affiliated to AEM (Adobe Experience Manager) Forms evolved from Adobe LiveCycle
-team and part of Adobe Experience Cloud Solutions. LiveCycle is an enterprise level product used for business
-process automation services
-* Worked on various aspects of product both at front-end and back-end sides. Contributed to end-to-end
-development of new interfaces featured for Interactive Communication Applications, Data Integration Services,
-Document Fragment and Letter-based Services
-* Worked on independent project for Intelligent Chatbot services using NLP for Query-based interaction on
-personalized customer contexts derived from their respective statement reports.
+* Responsible for development and maintenance of an Android/iOS research application platform.
 {: .notice}

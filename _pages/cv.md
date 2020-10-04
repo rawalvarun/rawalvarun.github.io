@@ -85,7 +85,7 @@ Service and leadership
 * **June - November 2016**: Worked as a team member for AUV (Autonomous Underwater Vehicle) Group, IIT
 Kharagpur
 * **January - April 2017**: Functioned as Team Captain, for OPENSOFT 2017 Team, M.S. Hall at IIT Kharagpur
-* **July 2013 - April 2015**: Successfully completed the NCC (National Cadet Corps) training under the unit 4(A) BN NCC: Air Wing
+* **July 2013 - April 2015**: Successfully completed the NCC (National Cadet Corps) training under the unit 4(A) BNCC: Air Wing
 * **July - November 2016**: Appointed as Teaching Assistant and Student Mentor at the CSE Department at IIT
 Kharagpur
 

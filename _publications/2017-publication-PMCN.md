@@ -18,5 +18,6 @@ reservation mechanism, Hybrid Adaptive DBCA (HA-DBCA), for supporting fair chann
 DBCA. In HA-DBCA, a polling based online learning mechanism is designed to avoid starvation of
 primary channel users. This work has been accepted for publication in IEEE Conference on Local
 Computer Networks (LCN) 2017.
+{: .notice}
 
 [Download paper here](../files/publications/support_fairness.pdf)

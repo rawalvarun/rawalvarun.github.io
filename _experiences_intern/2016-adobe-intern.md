@@ -2,7 +2,7 @@
 title: "Adobe Big Data Experience Lab (BEL)"
 collection: experiences_intern
 designation: "Research Intern (B.Tech. Summer Training)"
-permalink: /experiences_industry/ibm-2015-intern
+permalink: /experiences_intern/adobe-2016-intern
 venue: "Supervisor : Harvineet Singh, MTS, Adobe Research Labs"
 duration: "May 2016 - July 2016"
 location: "Adobe Research Bangalore, India"

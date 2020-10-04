@@ -2,7 +2,7 @@
 title: "Carnegie Mellon University"
 collection: experiences_acad
 designation: "Research Assistant"
-permalink: /experiences_industry/cmu-2020-RA
+permalink: /experiences_acad/cmu-2020-RA
 venue: "Supervisor : Prof. Beibei Li "
 duration: "Sep 2020 - December 2020"
 location: "Pittsburgh, PA, USA"

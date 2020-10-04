@@ -2,7 +2,7 @@
 title: "Qeexo Co."
 collection: experiences_intern
 designation: "ML Research Intern (Master's Summer Training)"
-permalink: /experiences_industry/qeexo-2020-intern
+permalink: /experiences_intern/qeexo-2020-intern
 venue: "Supervisor : Dr. Rajen Bhatt"
 duration: "June, 2020 - Aug, 2020"
 location: "Pittsburgh, PA, USA"

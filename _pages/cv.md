@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+{% include tabs_container.html bodyclass="fullborder" tabs=site.data.cv-tabs id="foo" %}
+
 Download [Full CV (LONG) here](../files/cv_resume/vrawal_resume.pdf)
 
 ---
@@ -17,15 +19,15 @@ Download [One Page Resume (SHORT) here](../files/cv_resume/vrawal_resume_one_pag
 
 Education
 ======
-* BTech. (Hons.) in IIT Kharagpur, 2013 - 2017
-* Masters in Machine Learning, Carnegie Mellon University, 2019 - 2020
+* Bachelors of Technology (Hons.) in IIT Kharagpur, 2013 - 2017
+* Masters of Science in Machine Learning, Carnegie Mellon University, 2019 - 2020
 
-Work experience
+Work Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2020: ML Research Intern
+  * Qeexo Co., Pittsburgh PA
+  * **AutoML - App for ML on Sensor-Data**: Worked on off-device and on-device Real-Time Clustering on Sensor data & Visualization
+  * **Supervisor**: Dr. Rajen Bhatt
 
 * Fall 2015: Research Assistant
   * Github University

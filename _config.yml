@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Varun Rawal"
 title_separator          : "-"
 name                     : &name "Varun Rawal"
-description              : &description "personal description"
+description              : &description "SDE 2 at Amazon Ads | MS ML, CMU | Software Engineer & AI/ML Systems"
 url                      : https://rawalvarun.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rawalvarun/rawalvarun.github.io"
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false
   google:
     tracking_id          :
 
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Varun Rawal"
   avatar           : "profile.png"
-  bio              : "Graduate Student, CMU"
-  location         : "Pittsburgh, PA, USA"
+  bio              : "SDE 2 · Amazon Ads | MS ML, CMU | Software &amp; AI/ML Engineer"
+  location         : "Seattle, WA, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=fGsBHfgAAAAJ"
-  email            :  "vrawal@andrew.cmu.edu"
+  email            :  "vrawal@alumni.cmu.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

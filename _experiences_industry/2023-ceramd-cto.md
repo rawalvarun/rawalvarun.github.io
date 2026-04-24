@@ -6,6 +6,7 @@ permalink: /experiences_industry/ceramd-2023-cto
 venue: "CeraMD.ai"
 duration: "Sep 2023 – Dec 2023"
 location: "Boston, MA"
+link: 'https://www.ceramd.ai/'
 ---
 
 * Designed and implemented a comprehensive AI-driven medical care system, integrating chat services, web crawlers, and advanced NLP models

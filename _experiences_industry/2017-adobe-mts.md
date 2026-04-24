@@ -7,6 +7,7 @@ venue: "Adobe Experience Cloud"
 duration: "Jun 2017 – Dec 2018"
 location: "Noida, India"
 logo: '/images/logos/adobe.png'
+link: 'https://www.adobe.com'
 ---
 
 * Architected and built full-stack solutions for Adobe Experience Manager (AEM) Interactive Communication applications, designing data integration services and document fragment-based systems to support scalable, cloud-based business process automation

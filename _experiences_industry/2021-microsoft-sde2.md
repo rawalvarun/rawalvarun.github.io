@@ -7,6 +7,7 @@ venue: "Microsoft"
 duration: "May 2021 – Jul 2023"
 location: "Bellevue, WA"
 logo: '/images/logos/microsoft.png'
+link: 'https://www.microsoft.com'
 ---
 
 * Spearheaded telemetry and dashboard development for Office Excel Charting, revolutionizing data visualization and analysis processes; architected comprehensive telemetry dashboards and optimized data querying mechanisms

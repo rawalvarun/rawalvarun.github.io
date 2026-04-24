@@ -7,6 +7,7 @@ venue: "Amazon Ads"
 duration: "Mar 2025 – Present"
 location: "Seattle, WA"
 logo: '/images/logos/amazon.png'
+link: 'https://advertising.amazon.com'
 ---
 
 * Designed and delivered multiple end-to-end features across API models, backend services, website backend, React frontend, and CDK infrastructure, contributing to ~18 packages in the Ads Permission Delegation Platform

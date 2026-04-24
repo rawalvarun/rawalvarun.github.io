@@ -9,89 +9,83 @@ redirect_from:
 
 {% include base_path %}
 
-[Download Resume (PDF)](../files/cv_resume/vrawal_resume.pdf)
+{% include tabs_container.html bodyclass="fullborder" tabs=site.data.cv-tabs id="foo" %}     
 
----
 
-## Professional Summary
+Education      
+======      
 
-Software Engineer with 7+ years of experience building scalable, distributed systems across Amazon Ads and enterprise platforms. Currently SDE 2 at Amazon, leading end-to-end development of full-stack features spanning backend services, APIs, frontend systems, and cloud infrastructure.
+* Masters of Science in Machine Learning, **Carnegie Mellon University**, 2019 - 2020      
+* Bachelors of Technology (Hons.) in Computer Science, **IIT Kharagpur**, 2013 - 2017      
 
-Proven track record delivering complex systems including access control platforms, batch APIs, observability pipelines, and advertiser-facing products at scale. Strong expertise in system design, microservices, and cloud-native architectures (AWS/CDK). Additionally experienced in AI/ML systems, including LLMs, RAG pipelines, and intelligent automation.
+Work Experience      
+======      
 
----
+* Mar 2025 - Present: SDE 2
+  * **Amazon**, Seattle, WA
+  * **Ads Permission Delegation Platform**: End-to-end full-stack features across backend services, APIs, React frontend, and CDK infrastructure (~18 packages)
+  * **Batch APIs & Access Control**: Architected batch ADD/DELETE APIs with CloudWatch-backed metrics and policy-based access control
+  * **KPI Widget Platform**: Built micro-frontend KPI visualization widget using React and Webpack Module Federation with CDN delivery and i18n support
 
-## Education
+* Dec 2024 - Mar 2025: Senior Backend Engineer (Contract)
+  * **Zaytun AI (formerly LIVEr)**, San Jose, CA
+  * **Recommendation Engine**: Vector search-based system using LLM embeddings; migrated from Vertex AI to Qdrant
+  * **iOS Backend**: Firebase and Google Cloud backend for scalable content delivery and user engagement
 
-* **Master of Science in Machine Learning**, Carnegie Mellon University — School of Computer Science, GPA: 3.4/4.0 *(Aug 2019 – Dec 2020)*
-* **Bachelor of Engineering in Computer Science**, IIT Kharagpur, GPA: 9.72/10.0 *(Aug 2013 – Jul 2017)*
+* Jan 2024 - Nov 2024: Consultant & Technical Lead
+  * **HyperWater.ai**, Dallas, TX
+  * **Generative AI Integration**: LLM + Drools rule engine for automated ITB decision-making workflows
+  * **Agent-Based Document Processing**: OCR + LLM-generated decision flows for ITB document automation
 
----
+* Sep 2023 - Dec 2023: Chief Technical Officer
+  * **CeraMD.ai**, Boston, MA
+  * **RAG Medical AI System**: Retriever-based system using OpenAI and LLaMA models for real-time medical insights
+  * **Cloud Infrastructure**: AWS microservices and serverless architecture for scalable AI operations
 
-## Professional Experience
+* May 2021 - Jul 2023: Software Engineer 2
+  * **Microsoft USA**, Bellevue, WA
+  * **Office Excel Charting**: Telemetry and dashboard development for data visualization and analysis
+  * **Azure SDN**: Network Security Groups on Private Link Connections using SDN Appliance Middlebox
 
-**Amazon** — SDE 2, Amazon Ads · Seattle, WA *(Mar 2025 – Present)*
-* Designed and delivered multiple end-to-end features across API models, backend services, React frontend, and CDK infrastructure, contributing to ~18 packages
-* Architected and implemented batch ADD/DELETE APIs with detailed error handling, region validation, and CloudWatch-backed status metrics
-* Built a micro-frontend KPI visualization widget from scratch using React and Webpack Module Federation with CDN delivery and i18n support
-* Authored 75+ production code reviews and reviewed 140+ peer changes across backend, frontend, and infrastructure
+* Jun 2017 - Aug 2019: Senior Software Development Engineer (SDE II)
+  * **Adobe Systems**, Noida, India
+  * **Vector Graphics Editing (iPad)**: Core components of Adobe Illustrator for iPad — Pen, Direct Selection, and Snapping tools
+  * **Adobe Experience Manager (AEM)**: Full-stack Interactive Communication Applications and Data Integration Services
 
-**Zaytun AI (formerly LIVEr)** — Senior Backend Engineer (Contract) · San Jose, CA *(Dec 2024 – Mar 2025)*
-* Built a vector search-based recommendation system using LLM embeddings to match users with personalized short-form food video content and local restaurants
-* Migrated from Vertex AI Vector Search to Qdrant, reducing infrastructure costs and improving deployment flexibility
-* Designed and deployed backend services on Firebase and Google Cloud for iOS launch
+* May 2016 - Jul 2016: Research Intern
+  * **Adobe Big-Data Experience Lab (BEL)**, Adobe Research, Bangalore, India
+  * **Channel Propensity Modelling**: Multi-channel customer behavior prediction using Canonical Correlation Analysis (CCA)
 
-**HyperWater.ai** — Consultant & Technical Lead · Dallas, TX *(Jan 2024 – Nov 2024)*
-* Architected an ITB Preferences module leveraging LLMs and rule engines to automate decision-making for subcontractors
-* Engineered a scalable system integrating LLMs with Drools for converting user preferences into structured decision flows
-* Built agent-based systems to automate ITB document processing using OCR and LLM-generated decision flows
+* May 2015 - Jun 2015: Research Intern
+  * **IBM India Research Laboratory (IRL)**, New Delhi, India
+  * **Knowledge Graph**: Supervised training and blended learning for Knowledge Graph construction using entity-extraction and NLP
 
-**CeraMD.ai** — Chief Technical Officer · Boston, MA *(Sep 2023 – Dec 2023)*
-* Designed and implemented a comprehensive AI-driven medical care system integrating chat services, web crawlers, and advanced NLP models
-* Spearheaded development of a RAG system using OpenAI and LLaMA models for real-time evidence-based medical insights
-* Orchestrated cloud architecture on AWS with microservices and serverless functions
 
-**Microsoft USA** — Software Engineer 2 · Bellevue, WA *(May 2021 – Jul 2023)*
-* Spearheaded telemetry and dashboard development for Office Excel Charting, revolutionizing data visualization and analysis
-* Led implementation of Network Security Groups on Private Link Connections using SDN Appliance Middlebox on Azure
-
-**Adobe Systems** — Senior SDE II · Noida, India *(Jun 2017 – Aug 2019)*
-* Developed core components of a vector graphics editing application for iPad (Pen, Direct Selection, Snapping tools)
-* Architected full-stack solutions for Adobe Experience Manager (AEM) Interactive Communication applications
-
-**Adobe Big-Data Experience Lab (BEL), Adobe Research** — Research Intern · Bangalore, India *(May 2016 – Jul 2016)*
-* Developed a multi-channel customer behavior prediction model using Canonical Correlation Analysis (CCA)
-
----
-
-## Skills
-
+Skills      
+======      
+* **Languages**:
+  * **Programming**: Python, C/C++, Java, JavaScript, SQL
+  * **Scripting**: React, jQuery, HTML5, CSS
 * **AI/ML**: Generative AI, LLMs, RAG systems, NLP, Computer Vision, TensorFlow, PyTorch, Scikit-learn
-* **Cloud & Infrastructure**: AWS, Azure, Docker, Kubernetes, Microservices, CDK
-* **Programming**: Python, C++, Java, JavaScript/React, SQL
-* **Tools & Practices**: Git, CI/CD, Agile, RESTful APIs, CloudWatch
+* **Cloud & Infrastructure**: AWS (CDK, CloudWatch, Lambda), Azure, Docker, Kubernetes, Firebase, Google Cloud
+* **Tools & Practices**: Git, CI/CD, Agile, RESTful APIs, Webpack Module Federation, Microservices
 
----
 
-## Publications
+Publications      
+======      
+  <ul>{% for post in site.publications reversed %}      
+    {% include archive-single-cv.html %}      
+  {% endfor %}</ul>      
 
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+Awards      
+======      
+  <ul>{% for post in site.awards reversed %}      
+    {% include archive-single-cv.html %}      
+  {% endfor %}</ul>      
 
----
-
-## Awards
-
-<ul>{% for post in site.awards reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
----
-
-## Service and Leadership
-
-* **2013–2017**: Core Member, K.R.A.I.G. (Kharagpur Robotics and Artificial Intelligence Group), IIT Kharagpur
+Service and Leadership      
+======      
+* **2013 – 2017**: Core Member, K.R.A.I.G. (Kharagpur Robotics and Artificial Intelligence Group), IIT Kharagpur
 * **2016**: Team member, AUV (Autonomous Underwater Vehicle) Group, IIT Kharagpur
 * **2017**: Team Captain, OPENSOFT 2017, M.S. Hall at IIT Kharagpur
 * **2016**: Teaching Assistant and Student Mentor, CSE Department, IIT Kharagpur

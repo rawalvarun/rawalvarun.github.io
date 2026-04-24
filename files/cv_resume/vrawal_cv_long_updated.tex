@@ -1,0 +1,578 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{array}
+\usepackage{tabularx}
+
+\definecolor{blue(ryb)}{rgb}{0.01, 0.28, 1.0}
+
+\usepackage[colorlinks=true,
+            linkcolor=blue,
+            urlcolor=blue,
+            citecolor=blue,
+            anchorcolor=blue]{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeDoubleHeadingSubheading}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textbf{#3} & \textit{\small #4} \\
+      \textit{\small#5} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeDoubleHeadingWrappedSubheading}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\textbf{#3}} & \textit{\small #4} \\
+      \textit{\small#5} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeWrappedSubheading}[5]{
+  \item[]
+    \begin{tabular}{>{\raggedright}p{40em}>{\raggedleft\arraybackslash}p{7em}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular}\vspace{-5pt}
+}
+
+\newcommand{\resumeTwoLineSubheading}[6]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+      {\small#5} & {\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeThreeLineSubheading}[8]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small#3} & {\small #4} \\
+      {\small#5} & {\small #6} \\
+      {\small#7} & {\small #8} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://rawalvarun.github.io}{\Large Varun Rawal}} & Email : \href{mailto:vrawal@alumni.cmu.edu}{vrawal@alumni.cmu.edu}\\
+  \href{http://rawalvarun.github.io/}{http://rawalvarun.github.io/} & Mobile : +1-425-543-8780 \\
+   & LinkedIn : \href{https://www.linkedin.com/in/varun-rawal/}{varun-rawal}\\
+\end{tabular*}
+
+\vspace{-5pt}
+
+%-----------PROFESSIONAL SUMMARY-----------------
+\section{Professional Summary}
+{
+Software Engineer with 7+ years of experience building scalable, distributed systems across Amazon Ads and enterprise platforms. Currently an SDE 2 at Amazon, leading end-to-end development of full-stack features spanning backend services, APIs, frontend systems, and cloud infrastructure.
+
+Proven track record of delivering complex systems including access control platforms, batch APIs, observability pipelines, and advertiser-facing products at scale. Strong expertise in system design, microservices, and cloud-native architectures (AWS/CDK).
+
+Additionally experienced in AI/ML systems, including LLMs, RAG pipelines, and intelligent automation, with a Master's degree in Machine Learning from Carnegie Mellon.
+}
+
+%-----------EDUCATION-----------------
+\section{Academic Qualifications}
+\resumeSubHeadingListStart
+
+    \resumeThreeLineSubheading
+      {Carnegie Mellon University}{Pittsburgh, PA, USA}
+      {Master of Science in Machine Learning, School of Computer Science; GPA: 3.4/4.0}{Aug. 2019 -- Dec. 2020}
+      {School of Computer Science, ML Department}{}
+      {}{}
+
+    \resumeThreeLineSubheading
+      {Indian Institute of Technology Kharagpur}{Kharagpur, West Bengal, India}
+      {B.Tech. (Hons.) in Computer Science and Engineering}{July 2013 -- April 2017}
+      {GPA: \textbf{9.72/10.0} $\cdot$ Department Rank \textbf{3} among \textbf{90} CS Students}{}
+      {}{}
+
+    \resumeThreeLineSubheading
+      {Delhi Public School Bhilai}{Bhilai, Chhattisgarh, India}
+      {Senior Secondary Education (CBSE)}{June 2011 -- March 2013}
+      {Percentage Score: \textbf{97.3\%}}{Rank \textbf{3} in school}
+      {}{}
+
+    \resumeThreeLineSubheading
+      {Delhi Public School Bhilai}{Bhilai, Chhattisgarh, India}
+      {Secondary Education (CBSE)}{June 2010 -- March 2011}
+      {CPI: \textbf{10.0 / 10.0}}{}
+      {}{}
+      \vspace{-20pt}
+
+\resumeSubHeadingListEnd
+
+%-----------INTERESTS-----------------
+\section{Interests}
+  My broad area of interest lies in the fields of Artificial Intelligence, Machine Learning, Deep Learning and their applications in Computer Vision, Natural Language Processing, Reinforcement Learning and their intersections. I am particularly excited about LLM-based systems, RAG pipelines, and intelligent automation at scale.
+
+%-----------PROFESSIONAL EXPERIENCE-----------------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Amazon}{Seattle, WA}
+      {SDE 2 -- Amazon Ads}{Mar 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Full-Stack Ownership of Ads Permission Delegation Platform}
+          {Designed and delivered multiple end-to-end features across API models, backend services, website backend, React frontend, and CDK infrastructure, contributing to \textasciitilde18 packages. Led development of access level management, business justification workflows, and source validation across advertiser account management systems.}
+        \resumeItem{Batch APIs \& Policy-Based Access Control}
+          {Architected and implemented batch ADD/DELETE APIs with detailed error handling, region validation, and CloudWatch-backed status metrics. Refactored policy configuration to enable always-on policy-based access control with marketplace-aware access levels and UUID-based identity mapping.}
+        \resumeItem{Observability, Reliability \& Security Improvements}
+          {Built dependency service monitoring across accessor layers with CloudWatch dashboards and alarms, improving system observability and incident response. Resolved Sev-2 issues via validation fixes, implemented username blocklisting, and mitigated dependency confusion vulnerabilities in production systems.}
+        \resumeItem{KPI Widget Platform}
+          {Built a micro-frontend KPI visualization widget from scratch using React and Webpack Module Federation, including CDN asset delivery, i18n support, and CDK-based deployment pipelines. Delivered dynamic metric visualization with sparklines, formatting, and responsive layouts for Ads Console.}
+        \resumeItem{Operational Excellence \& System Migrations}
+          {Led multiple system migrations and cleanups including weblab deprecations, AMC config transitions, and feature flag removal. Improved pipeline health, test coverage, and deployment reliability across onboarding and permission systems.}
+        \resumeItem{Technical Leadership \& Code Reviews}
+          {Authored 75+ production code reviews and reviewed 140+ peer changes across backend services, frontend, and infrastructure, influencing design patterns, API contracts, and system reliability across the Ads Permission Delegation ecosystem.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://zaytun.ai/}{Zaytun AI (formerly LIVEr)}}{San Jose, CA}
+      {Senior Backend Engineer (Contract)}{Dec 2024 -- Mar 2025}
+      \resumeItemListStart
+        \resumeItem{AI-Powered Recommendation Engine}
+          {Built a vector search-based recommendation system leveraging LLM embeddings to match users with personalized short-form food video content and local restaurants, supporting a TikTok-style platform targeting a global Muslim audience. Migrated from Vertex AI Vector Search to Qdrant, reducing infrastructure costs and improving deployment flexibility.}
+        \resumeItem{Scalable Backend for iOS Launch}
+          {Designed and deployed backend services on Firebase and Google Cloud, including authentication, real-time data sync, and push notifications, enabling scalable content delivery and user engagement for mobile clients.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.hyperwater.com/}{HyperWater.ai}}{Dallas, TX}
+      {Consultant \& Technical Lead}{Jan 2024 -- Nov 2024}
+      \resumeItemListStart
+        \resumeItem{Generative AI Integration}
+          {Architected and implemented an advanced ITB Preferences module leveraging LLMs and rule engines to automate decision-making processes for subcontractors. \textcolor{blue}{[Languages: Python, Java]}}
+        \resumeItem{AI-Driven Workflow Optimization}
+          {Engineered a scalable system integrating LLMs with Drools for converting user preferences into structured decision flows, enhancing efficiency in document processing and action-taking.}
+        \resumeItem{Agent-Based Document Processing}
+          {Built agent-based systems to automate ITB document processing, applying OCR tools for extraction and passing through LLM-generated decision flows. Integrated APIs for ITB ingestion and action-taking workflows.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\href{https://www.ceramd.ai/}{CeraMD.ai}}{Boston, MA}
+      {Chief Technical Officer}{Sep 2023 -- Dec 2023}
+      \resumeItemListStart
+        \resumeItem{Large-Scale AI System Architecture}
+          {Designed and implemented a comprehensive AI-driven medical care system, integrating chat services, web crawlers, and advanced NLP models.}
+        \resumeItem{Generative AI and RAG Implementation}
+          {Spearheaded the development of a retriever-based system utilizing OpenAI and LLaMA models, enabling real-time, evidence-based medical insights. \textcolor{blue}{[Languages: Python, Node.js]}}
+        \resumeItem{Cloud Infrastructure and DevOps}
+          {Orchestrated a robust cloud architecture on AWS, implementing microservices, serverless functions, and efficient data pipelines for scalable AI operations.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Microsoft USA}{Bellevue, WA}
+      {Software Engineer 2}{May 2021 -- July 2023}
+      \resumeItemListStart
+        \resumeItem{Office Excel Charting Space}
+          {Spearheaded telemetry and dashboard development, revolutionizing data visualization and analysis processes. Architected comprehensive telemetry dashboards and optimized data querying mechanisms, significantly enhancing product monitoring capabilities. \textcolor{blue}{[Languages: C++, C\#]}}
+        \resumeItem{Azure Software Defined Networking}
+          {Led implementation of Network Security Groups on Private Link Connections using SDN Appliance Middlebox, enhancing network security and performance. \textcolor{blue}{[Languages: C++, C\#]}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Adobe Systems India Pvt. Ltd.}{Noida, India}
+      {Senior Member of Technical Staff -- Adobe Creative Cloud}{January 2019 -- August 2019}
+      \resumeItemListStart
+        \resumeItemWithoutTitle
+          {Worked on port of Adobe Illustrator to iOS platform for iPad (Project Proteus); work intensively focused in C++ and iOS platforms.}
+        \resumeItemWithoutTitle
+          {Developed core Pen, Direct Selection, and Snapping tools, enabling precise design workflows and smooth transition of desktop-grade capabilities to mobile.}
+        \resumeItemWithoutTitle
+          {Learned programming in Metal language for handling graphics-based aspects of Illustrator on iOS.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Adobe Systems India Pvt. Ltd.}{Noida, India}
+      {Member of Technical Staff $\to$ Senior Member of Technical Staff -- Adobe Experience Cloud}{June 2017 -- December 2018}
+      \resumeItemListStart
+        \resumeItemWithoutTitle
+          {Worked in product team affiliated to AEM (Adobe Experience Manager) Forms, part of Adobe Experience Cloud Solutions, used for enterprise business process automation services.}
+        \resumeItemWithoutTitle
+          {Contributed to end-to-end development of Interactive Communication Applications, Data Integration Services, Document Fragment and Letter-based Services.}
+        \resumeItemWithoutTitle
+          {Built independent project for Intelligent Chatbot services using NLP for query-based interaction on personalized customer contexts derived from statement reports.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------INTERNSHIP EXPERIENCE-----------------
+\section{Internship Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Qeexo}{Pittsburgh, USA}
+      {ML Research Intern (Master's Summer Training)}{June 2020 -- Aug 2020}
+      \resumeItemListStart
+        \resumeItem{AutoML -- App for ML on Sensor-Data}
+          {Worked on off-device and on-device Real-Time Clustering on Sensor data \& Visualization for ML platform targeting execution on Embedded devices like Arduino Sensorboard.}
+      \resumeItemListEnd
+
+    \resumeDoubleHeadingSubheading
+      {Adobe Big Data Experience Lab (BEL), Adobe Research}{Bangalore, India}
+      {Research Intern (B.Tech. Summer Training)}{May -- July 2016}
+      {Guide: Harvineet Singh, MTS, Adobe Research Labs}
+      \resumeItemListStart
+        \resumeItemWithoutTitle
+          {Actively participated in and contributed to the fulfilment of the Project \textit{``Analytics of Multi-Channel Customer Data"}.}
+        \resumeItemWithoutTitle
+          {Applied Machine Learning models to predict customer affinity to interact in a given channel with limited information, given interaction data across other channels.}
+        \resumeItemWithoutTitle
+          {Designed a novel solution approach exploiting CCA (Canonical Correlation Analysis) for predicting customers' purchase behavior using a shared feature space capturing cross-channel correlations.}
+      \resumeItemListEnd
+
+    \resumeDoubleHeadingSubheading
+      {IBM India Research Laboratory (IRL)}{New Delhi, India}
+      {Research Intern (UG Summer Training)}{May -- June 2015}
+      {Guide: Dr. Sameep Mehta, Senior Researcher \& Manager, IBM}
+      \resumeItemListStart
+        \resumeItemWithoutTitle
+          {Participated in Project \textit{``Construction of Knowledge Graph and Use of Semantic Knowledge Graph in Supervised Training and Blended Learning"}.}
+        \resumeItemWithoutTitle
+          {Prepared a model for Knowledge Graph construction by discovering relations and establishing links between graph nodes; collected 4000 records by crawling a Research Repository.}
+        \resumeItemWithoutTitle
+          {Applied text-mining techniques like Entity-Extraction, Part-of-Speech Tagging, and Similarity Detection; demonstrated a 3D visualization of the growing Knowledge Graph.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------CAMPUS JOB EXPERIENCE-----------------
+\section{Campus Job Experience}
+  \resumeSubHeadingListStart
+
+    \resumeDoubleHeadingSubheading
+      {Carnegie Mellon University (CMU)}{Pittsburgh, PA}
+      {Research Assistant}{Sep -- Dec 2020}
+      {Supervisor: Dr. Beibei Li, Heinz College}
+      \resumeItemListStart
+        \resumeItemWithoutTitle
+          {Responsible for Development, Maintenance and Improvement of iOS/Android App for research-oriented deployment.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%--------TECHNICAL SKILLS------------
+\section{Technical Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Programming Languages}{: Python, C/C++, Java, JavaScript, SQL, R, MATLAB, Scala} \\
+     \textbf{Frontend \& Scripting}{: React, Webpack Module Federation, jQuery, HTML5, CSS, JSP, PHP}}\\
+     \vspace{-2pt}
+   \item{
+     \textbf{AI/ML}{: Generative AI, LLMs, RAG systems, NLP, Computer Vision, TensorFlow, PyTorch, Scikit-learn, Caffe, NumPy, OpenCV}}\\
+     \vspace{-2pt}
+   \item{
+     \textbf{Cloud \& Infrastructure}{: AWS (CDK, CloudWatch, Lambda, S3), Azure, Docker, Kubernetes, Firebase, Google Cloud, Microservices}}\\
+     \vspace{-2pt}
+   \item{
+     \textbf{Domain Technologies}{: Adobe AEM 6.3, Apache Sling, Apache Felix, OSGi, J2EE, RESTful APIs, CI/CD, Agile}}\\
+     \vspace{-2pt}
+   \item{
+     \textbf{Software Tools}{: Eclipse, IntelliJ IDEA, R-Studio, MATLAB, GNU Octave, SolidWorks}}
+ \resumeSubHeadingListEnd
+
+%--------PROJECTS------------
+\section{Academic Projects}
+
+\textbf{RESEARCH PROJECTS}
+
+\resumeSubHeadingListStart
+
+  \resumeDoubleHeadingSubheading
+    {Towards Frequency-Based Explanation for Robust CNN Models}{Carnegie Mellon University}
+    {Deep Learning Project [
+    \href{https://github.com/rawalvarun/frequency_explain}{Project Code},
+    \href{https://rawalvarun.github.io/files/project_reports/10716_project_FINAL.pdf}{Project Report}
+    ]}{Spring 2020, Fall 2020}
+    {Advisor: Eric P. Xing, ML Department, CMU}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Project Titled \textit{``Towards Frequency-Based Explanation for Robust CNN Models"}. We present an analysis of the connection between the distribution of frequency components in the input dataset and the reasoning process the model learns from the data, with quantification analysis of different frequency components' contribution toward the model's prediction.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {Music Generation with Generative Adversarial Networks}{Carnegie Mellon University}
+    {Machine Learning Project [
+    \href{https://rawalvarun.github.io/files/project_reports/10_701_FINAL_PROJECT_REPORT_vrawal.pdf}{Project Report}
+    ]}{Fall 2019, Spring 2020}
+    {Advisor: Tom Mitchell, ML Department, CMU}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Project Titled \textit{``Music Generation with Generative Adversarial Networks"}. Explored music-piece generation using GANs and VAE-GANs, providing arbitrary notes and letting models produce music pieces through deep generative techniques.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {Citation Analysis using Deep Neural Networks}{IIT Kharagpur}
+    {Bachelor's Thesis [
+    \href{https://rawalvarun.github.io/files/project_reports/vrawal_iitkgp_BTP_Project_Report_FINAL.pdf}{Project Report}
+    ]}{Autumn 2016, Spring 2017}
+    {Advisor: Dr. Pabitra Mitra, CSE, IIT Kharagpur}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Project Titled \textit{``Prediction of Citation Function of a specified 'Cited' paper in the given 'Citing' paper using Deep Supervised Learning"}. Deployed RNN-based architectures (LSTMs and Text-CNNs) to classify citation sentiment across a network of \textasciitilde1000 inter-referenced research papers.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {Image Deblurring using Convolutional Neural Networks}{IIT Kharagpur}
+    {Machine Learning Term Project}{Autumn 2016}
+    {Guide: Dr. Pabitra Mitra, CSE, IIT Kharagpur}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Implemented a deep convolutional neural network structure for image deconvolution using a series of convolution steps approximating deconvolution, with two modules for deconvolution and artifact removal.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingWrappedSubheading
+    {\small{Supporting Throughput Fairness in IEEE 802.11ac Dynamic Bandwidth Channel Access}}{IIT Kharagpur}
+    {Network Modelling Term Project}{Autumn 2016}
+    {Advisor: Dr. Sandip Chakraborty, CSE, IIT Kharagpur}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Developed Hybrid Adaptive DBCA (HA-DBCA), a hybrid adaptive resource reservation mechanism for supporting fair channel access in IEEE 802.11ac DBCA environments. Accepted for publication at IEEE LCN 2017.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {Researcher Recommendation System}{IIT Kharagpur}
+    {Information Retrieval Term Project}{Spring 2016}
+    {Advisors: Dr. Pawan Goyal and Dr. Animesh Mukherjee, CSE, IIT Kharagpur}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Developed a search and recommendation engine for the Scientific Research Community. Used clustering on co-author graphs and LDA on keyword databases to recommend collaborators; achieved 25\% increase in recall. Built a full-fledged Scientific Search Engine on top.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\textbf{SOFTWARE DEVELOPMENT PROJECTS}
+
+\resumeSubHeadingListStart
+
+  \resumeDoubleHeadingSubheading
+    {Large-Scale Text Analysis with Apache Spark}{Carnegie Mellon University}
+    {Big Data Project}{Spring 2020}
+    {}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Engineered a distributed computing solution for processing and analyzing the complete works of William Shakespeare, showcasing expertise in big data technologies and scalable systems.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {Entity Resolution in Large Datasets}{Carnegie Mellon University}
+    {Big Data Project}{Spring 2020}
+    {}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Designed a scalable entity resolution system using Spark with TF-IDF and cosine similarity metrics to optimize text similarity calculations across multiple data sources.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {Website for Talpuri International Housing Colony}{Talpuri, Bhilai}
+    {Freelance Project}{Autumn 2017}
+    {Guide: Dr. Arpana Rawal, BIT Durg}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Website hosted at \href{http://www.talpuri.com/}{www.talpuri.com}. Designed skeletal architecture and wrote core modules in PHP and JavaScript with remote SQL database. Mentored a team of five students.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {Course Management System}{IIT Kharagpur}
+    {Databases \& Management Systems Term Project}{Spring 2016}
+    {Guide: Dr. Pabitra Mitra, CSE, IIT Kharagpur}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Web-based application for online course design, student registrations, content administration, assignments, and assessments. Implemented in PHP, HTML5, CSS3, Bootstrap, and MySQL.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {2D/3D Graph Plotter \& 2D Graph Scanner Software}{IIT Kharagpur}
+    {OpenSoft (inter-hostel tech competition)}{Spring 2015, 2016}
+    {}
+    \resumeItemListStart
+    \vspace{-2pt}
+        {``Plot-It'' (2015): 2D/3D Graph Plotter in Python using PyQt. ``PlotEx'' (2016): Detects graphs from scanned documents using OpenCV and Tesseract OCR and produces corresponding data tables.}
+    \resumeItemListEnd
+
+  \resumeDoubleHeadingSubheading
+    {TinyC Compiler}{IIT Kharagpur}
+    {Compilers Term Project}{Autumn 2015}
+    {Advisor: Dr. Partha Pratim Das, CSE, IIT Kharagpur}
+    \resumeItemListStart
+    \vspace{5pt}
+        {Designed and implemented a compiler for a C-like language (subset of C) as a Term Project for the Compilers Course.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%--------ACADEMIC HONORS AND AWARDS------------
+\section{Academic Honors and Awards}
+
+\resumeSubHeadingListStart
+
+  \resumeWrappedSubheading
+    {GORA LAL SYNGAL MEMORIAL SCHOLARSHIP RECIPIENT}{2015--16}
+    {Granted Scholarship of INR 2500 per month, awarded to the second highest CGPA holder clearing all prescribed requirements after 6th semester among 4-year B.Tech. (Hons.) CS/EE/EC Students at IIT KGP.}{}
+
+  \resumeWrappedSubheading
+    {B.P. PODDAR SCHOLARSHIP RECIPIENT}{2015--16}
+    {Granted Scholarship of INR 1000 per month awarded to the best students of the final year B.Tech. (Hons.) class securing the highest CGPA at the end of the VI or VIII semesters.}{}
+
+  \resumeWrappedSubheading
+    {SAIL Proficiency Award}{2012--13}
+    {Awarded Certificate of Merit-cum-Cash Award by Education Department, Bhilai Steel Plant, SAIL, for Outstanding Proficiency in All India Entrance Examination for Professional Course in Engineering 2012--13.}{}
+
+  \resumeWrappedSubheading
+    {Prime Minister's Trophy SARVOTTAM Scholarship Award}{2013--14}
+    {Awarded by Bhilai Steel Plant, SAIL for Outstanding Academic Performance for four Academic Years.}{}
+
+  \resumeWrappedSubheading
+    {Joint Entrance Examination (JEE) Mains}{2013}
+    {Secured All India Rank 165 within top-200 among 1.3 million candidates in JEE Mains 2013.}{}
+
+  \resumeWrappedSubheading
+    {Joint Entrance Examination (JEE) Advanced}{2013}
+    {Scored All India Rank 764 within top-1000 among 150,000 candidates in JEE Advanced 2013.}{}
+
+  \resumeWrappedSubheading
+    {Kishore Vaigyanik Protsahan Yojana (KVPY) Scholar Award}{2012}
+    {Selected for KVPY scholarship with All India Rank 60 (awarded to 200 students from over 25,000 applicants).}{}
+
+  \resumeWrappedSubheading
+    {National Talent Search Exam (NTSE) Scholar Award}{2008--09}
+    {Qualified for NTSE scholarship clearing all 3 rounds; recipient since 2009 (1000 students selected nationwide per year).}{}
+
+\resumeSubHeadingListEnd
+
+%--------WORKSHOPS------------
+\section{Workshops}
+
+\resumeSubHeadingListStart
+  \resumeWrappedSubheading
+    {Microsoft Code.Fun.Do Coding Hackathon \& Workshop 2015}{March 2015}
+    {Attended at IIT Kharagpur; developed app ``NextGenToss'' for Windows platform using Construct2 Gaming Engine.}{}
+\resumeSubHeadingListEnd
+
+%--------PUBLICATIONS------------
+\section{Publications}
+
+    Varun Rawal, Kumar Ayush, Raja Karamakar, Pradyumna K. Bishoyi, Samiran Chattopadhya, Sandip Chakraborty.
+    \textbf{``Supporting Throughput Fairness in IEEE 802.11ac Dynamic Bandwidth Channel Access: A Hybrid Approach."}
+    \textit{42nd IEEE Conference on Local Computer Networks (LCN), 2017.}
+    \href{https://ieeexplore.ieee.org/document/8109388}{Publication URL} \\
+    \vspace{1em}
+    Varun Rawal, Zifan Wang, Yilin Yang, Ankit Shrivastava, Zihao Ding.
+    \textbf{``Towards Frequency-Based Explanation for Robust CNN."}
+    \textit{arXivLabs, 2020.}
+    \href{https://arxiv.org/abs/2005.03141}{Publication URL}
+
+%--------COURSEWORK------------
+\section{Academic Coursework \& Certifications}
+
+\begin{tabularx}{0.97\textwidth}{
+    >{\hsize=1.3\hsize}X
+    >{\hsize=0.6\hsize}X
+    >{\hsize=1.1\hsize}X
+  }
+  Probability \& Statistics & Matrix Algebra & Information Retrieval \\
+  Speech \& Natural Language Processing & Algorithms I \& II & Discrete Structures \\
+  Formal Languages \& Automata Theory & Machine Learning & Image Processing \\
+  Performance Modeling of Computer Networks & Artificial Intelligence & Theory of Computation \\
+  Adv. Image Processing \& Comp. Vision & Deep Learning & Principles of Programming Languages \\
+\end{tabularx}\vspace{-5pt}
+\\ \vspace{10pt}
+Machine Learning by Stanford University on Coursera. Certificate earned on August 6, 2016. \href{https://www.coursera.org/account/accomplishments/certificate/SEPK6P4QLXQF}{Certification URL}
+
+%--------EXTRACURRICULAR ACTIVITIES------------
+\section{Extracurricular Activities}
+  \resumeSubHeadingListStart
+    \resumeSubItem{November 2013 -- February 2017}
+      {Core Member, K.R.A.I.G. (Kharagpur Robotics and Artificial Intelligence Group), Technical Wing of Technology Robotics Society at IIT Kharagpur}
+    \resumeSubItem{June -- November 2016}
+      {Worked as a team member for AUV (Autonomous Underwater Vehicle) Group, IIT Kharagpur}
+    \resumeSubItem{January -- April 2017}
+      {Functioned as Team Captain for OPENSOFT 2017 Team, M.S. Hall at IIT Kharagpur}
+    \resumeSubItem{July 2013 -- April 2015}
+      {Successfully completed NCC (National Cadet Corps) training under unit 4(A) BN NCC: Air Wing}
+    \resumeSubItem{July -- November 2016}
+      {Appointed as Teaching Assistant and Student Mentor at the CSE Department, IIT Kharagpur}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
